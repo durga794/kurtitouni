@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@font-face {
+  font-family:krutidev;
+  src:url('font-preview/krdv011.ttf');
+}
+
+#krutidev-box{
+	font-family:krutidev;
+}
+
+#krutidev-box::placeholder{
+	font-family:segoe UI;
+}
+
+#unitokru-menu ul li a{
+	color:black;
+}
+
+.title-heading{
+	font-size:33px;
+}
+
+.container-row{
+	width:80% !important;
+}
+
+#features-con span{
+	color:rgba(0,0,0,0.5);
+	font-size:12px;
+}
+
+#share-text-con{
+	width:35%;
+}
+
+#other-action-con{
+	width:55%;
+}
+
+#share-text-con a i{
+	font-size:18px;
+	padding:8px;
+}
+
+#filename-todownload{
+	border:1px solid #ccc;
+	font-size:11px;
+}
+
+#filename-todownload:focus{
+	outline:none;
+	border:1px solid #ccc;
+}
+
+#file-type-select{
+	border:1px solid #ccc;
+	font-size:11px;
+}
+
+#file-type-select:focus{
+	outline:none;
+}
+
+#print-page,#bug-icon,#previous-post,#next-post{
+	cursor:pointer;
+}
+
+@media only screen and (max-width:991px)
+{
+	.title-heading{
+		font-size:25px;
+	}
+	.main-container{
+		padding:1px !important;
+	}
+	.container-row{
+		width:100% !important;
+	}
+	.buttons-con{
+		padding:0px !important;
+	}
+	.buttons-con button{
+		font-size:13px;
+	}
+	.container-row-fcol{
+		padding:0px !important;
+	}
+	.white-con .col-12{
+		padding:0px !important;
+	}
+	.right-sidebar{
+		margin:0px !important;
+	}
+}
+
+
+@media only screen and (max-width:350px)
+{
+	.title-heading{
+		font-size:22px;
+	}
+	.buttons-con button{
+		font-size:11px;
+	}
+}
